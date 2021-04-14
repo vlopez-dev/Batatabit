@@ -249,3 +249,12 @@ main-currency-table{
     background-repeat: no-repeat;
 
 }
+
+.main-currency-table .currency-table--titleCommissions {
+    margin-bottom: 15px;
+    margin-top: 50px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--secondary-blue);
+}
