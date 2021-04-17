@@ -259,3 +259,14 @@ main{
     line-height: 2.3rem;
     color: var(--secondary-blue);
 }
+
+
+.commissions-table--date p{
+    display: inline;
+    background-color: var(--soft-blue);
+}
+
+.currency-table--date p{
+    display: inline;
+    background-color: var(--soft-orange);
+}
