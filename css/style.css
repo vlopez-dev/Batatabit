@@ -136,6 +136,16 @@ main{
     margin: 0 auto;
 }
 
+.main-tables-container{
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior-x:x contain;
+    scroll-snap-type:x proximity
+
+}
+
+
+
 .main-exchange-container .backgroundImg{
     width: 200px;
     height: 200px;
@@ -166,6 +176,8 @@ main{
 
 
 .main-currency-table,.main-commissions-table{
+    position: relative;
+    scroll-snap-align:center;
     width: 70%;
 
     min-width: 235px;
